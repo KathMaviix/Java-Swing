@@ -2,10 +2,10 @@ import javax.swing.*;
  
 public class ParOuImpar {
     public static void main(String[] args) {
-        // Solicita ao usuário que insira um número inteiro
+        
         int numero = Integer.parseInt(JOptionPane.showInputDialog("Digite um número inteiro:"));
  
-        // Verifica se o número é par ou ímpar
+       
         if (numero % 2 == 0) {
             JOptionPane.showMessageDialog(null, "O número " + numero + " é par.");
         } else {
