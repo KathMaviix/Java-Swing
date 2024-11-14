@@ -3,11 +3,11 @@ import javax.swing.*;
  
 public class MaiorNumero {
     public static void main(String[] args) {
-        // Solicita ao usuário que insira dois números inteiros
+      
         int num1 = Integer.parseInt(JOptionPane.showInputDialog("Digite o primeiro número:"));
         int num2 = Integer.parseInt(JOptionPane.showInputDialog("Digite o segundo número:"));
  
-        // Compara os números e exibe a mensagem apropriada
+      
         if (num1 > num2) {
             JOptionPane.showMessageDialog(null, "O maior número é: " + num1);
         } else if (num1 < num2) {
