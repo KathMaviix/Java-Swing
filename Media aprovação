@@ -2,15 +2,15 @@ import javax.swing.*;
  
 public class MediaAprovacao {
     public static void main(String[] args) {
-        // Solicita ao usuário que insira três notas
+      
         double nota1 = Double.parseDouble(JOptionPane.showInputDialog("Digite a primeira nota:"));
         double nota2 = Double.parseDouble(JOptionPane.showInputDialog("Digite a segunda nota:"));
         double nota3 = Double.parseDouble(JOptionPane.showInputDialog("Digite a terceira nota:"));
  
-        // Calcula a média
+    
         double media = (nota1 + nota2 + nota3) / 3;
  
-        // Avalia a aprovação ou reprovação
+        
         if (media >= 6) {
             JOptionPane.showMessageDialog(null, "Média: " + media + "\nAprovado!");
         } else {
